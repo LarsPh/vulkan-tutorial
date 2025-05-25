@@ -1,0 +1,8 @@
+{
+    "cSpell.words": [
+        "GLFW"
+    ],
+    "files.associations": {
+        "stdexcept": "cpp"
+    }
+}

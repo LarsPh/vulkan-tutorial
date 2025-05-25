@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.8)
 project(vulkan_tutorial)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 # Config vulkan
 if (WIN32)
@@ -48,6 +48,7 @@ include_directories(3rd_party/vulkan-header)
 include_directories(3rd_party/others)
 
 # Demos
+add_subdirectory(_edit)
 add_subdirectory(Tutorial01)
 add_subdirectory(Tutorial02)
 add_subdirectory(Tutorial03)
